@@ -1,0 +1,165 @@
+.about-bg-cover{
+    min-height: 100vh;
+    padding-top: 0;
+}
+.about-bg-cover .cover-title{
+    padding-top: 100px;
+}
+.about-bg-cover .cover-info h3{
+    line-height: 1.5;
+}
+.vision-padding {
+    padding-top: 300px;
+    padding-right: 80px;
+}
+.mission {
+    font-size: 66.667px;
+    font-family: "Britannic Bold";
+    color: rgb(4, 151, 219);
+    line-height: 1.61;
+    text-align: center;
+}
+.mission-message {
+    font-size: 25px;
+    font-family: "Calibri";
+    color: rgb(105, 105, 105);
+    line-height: 1;
+    text-align: center;
+    padding: 30px 30px 30px 60px;
+}
+
+.vision {
+    font-size: 66.667px;
+    font-family: "Britannic Bold";
+    color: rgb(233, 237, 246);
+    line-height: 1.61;
+    text-align: center;
+}
+.vision-message {
+    font-size: 25px;
+    font-family: "Calibri";
+    color: rgb(233, 237, 246);
+    line-height: 1;
+    text-align: center;
+    padding-left: 60px;
+}
+
+.values-circle{
+    background-color: #0497db;
+    display: grid;
+    place-items: center;
+    place-content: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.values-circle h1{
+    font-size: 30px;
+}
+
+.managment-team{
+    width: 300px;
+    overflow: hidden;
+    background: rgb(196, 196, 196);
+    margin-top: 30px;
+}
+.managment-team2{
+    background: rgb(226, 226, 226);
+}
+.managment-team .image{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.d-flex{
+    flex-wrap: wrap;
+}
+.career-join{
+    height: 100vh;
+}
+
+.career-text div h4{
+    line-height: 1.8;
+    color: #313131;
+}
+
+
+
+@media only screen and (max-width: 900px){
+    .vision {
+        font-size: 60px;
+        font-family: "Britannic Bold";
+        color: rgb(0, 0, 0);
+        line-height: 1.61;
+        text-align: center;
+    }
+    .vision-message {
+        font-size: 25px;
+        font-family: "Calibri";
+        color: rgb(3, 3, 3);
+        line-height: 1;
+        text-align: center;
+    }
+    }
+    @media only screen and (max-width: 650px){
+    .vision-message {
+        font-size: 20px;
+        font-family: "Calibri";
+        color: #000000;
+        line-height: 1;
+        text-align: center;
+        padding-left: 20px;
+    }
+    .vision {
+        font-size: 66px;
+        font-family: "Britannic Bold";
+        color: #000000;
+        line-height: 1.61;
+        text-align: center;
+    }
+    .vision-padding{
+        padding-right: 0;
+        margin-top: 60px;
+        padding-top: 0;
+    }
+    .mission-padding{
+        padding-right: 0;
+        margin-top: 60px;
+    }
+    }
+    @media only screen and (max-width: 500px){
+    .vision {
+        font-size: 66px;
+        font-family: "Britannic Bold";
+        color: #000000;
+        line-height: 1.61;
+        text-align: center;
+    }
+    .vision-message {
+        font-size: 25px;
+        font-family: "Calibri";
+        color: #000000;
+        line-height: 1;
+        text-align: center;
+        padding-left: 0px;
+
+        /* padding: 0px 0px 0px 0px !important; */
+    }
+    .vision-padding{
+        padding-right: 0;
+        margin-top: 60px;
+    }
+    .mission-message {
+        font-size: 25px;
+        font-family: "Calibri";
+        color: rgb(105, 105, 105);
+        line-height: 1;
+        text-align: center;
+        padding: 0;
+    }
+
+    .vision-padding{
+        padding-top: 0;
+    }
+
+    }
